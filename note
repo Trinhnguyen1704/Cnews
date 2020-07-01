@@ -1,0 +1,19 @@
+widgets laravel(left bar)
+tìm theo tên truyện và tên danh mục
+trang tìm kiếm
+str slug
+check url  $uri Request::fullUrl();
+
+c2: Trong leftbar tạo mảng danh mục, foreach
+
+Kiểm tra route có chứa trong uri ko
+strpos($uri,$route)# false >>a active gán $active style "color:red"
+{!!active!!}
+ktra lại slug
+hoàn thiện dự án
+
+
+
+Phân quyền nâng cao:
+
+tạo middleware: php artisan make:middleware Anewsauth
